@@ -36,10 +36,6 @@ const App = () => (
         element={<ProtectedRoute><DiscussionBoardPage /></ProtectedRoute>} 
     />
     <Route 
-        path="/materials" 
-        element={<ProtectedRoute><LectureMaterialsPage /></ProtectedRoute>} 
-    />
-    <Route 
         path="/grading" 
         element={<RoleBasedRoute role="instructor"><GradingPage /></RoleBasedRoute>} 
     />
