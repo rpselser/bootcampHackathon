@@ -9,6 +9,7 @@ import Discussion from "./pages/Discussion";
 import Materials from "./pages/Materials";
 import Grading from "./pages/Grading";
 import Attendance from "./pages/Attendance";
+import Resources from "./pages/Resources";
 import ProtectedRoute from "./components/ProtectedRoute";
 import RoleBasedRoute from "./components/RoleBasedRoute";
 import HomePage from "./pages/HomePage";
@@ -46,7 +47,13 @@ const App = () => (
         path="/attendance" 
         element={<RoleBasedRoute role="instructor"><AttendancePage /></RoleBasedRoute>} 
     />
-    <Route path="*" element={<NotFoundPage />} />
+
+<Route 
+        path="/resources" 
+        element={<ProtectedRoute><Resources/></ProtectedRoute>} 
+    />
+    <Route 
+    Route path="*" element={<NotFoundPage />} />
     </Routes>
 </Router>
 );
