@@ -1,3 +1,0 @@
-// sawyer
-
-// mentor group
