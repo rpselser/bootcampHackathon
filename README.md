@@ -10,3 +10,4 @@ Attendance checking
 Things probably should also have:
 Discussion board/forum space 
 Grading area for the homework
+Place for all resources to go (slides, class code)
