@@ -46,6 +46,12 @@ const App = () => (
         path="/attendance" 
         element={<RoleBasedRoute role="instructor"><AttendancePage /></RoleBasedRoute>} 
     />
+
+<Route 
+        path="/resources" 
+        element={<ProtectedRoute><Resources/></ProtectedRoute>} 
+    />
+    <Route 
     <Route path="*" element={<NotFoundPage />} />
     </Routes>
 </Router>
