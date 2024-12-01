@@ -16,10 +16,16 @@ const Home = () => {
     };
 
     const HomeHeader = () => {
-        return(
-            <h1 className='HomeHeader'>
-                AppDev Companion
-            </h1>
+        return (
+            <>
+                <h1 className='HomeHeader'>
+                    AppDev Companion
+                </h1>
+                <p>
+                    This site is your one-stop place for everything related to your bootcamp. 
+                    Find course materials, check out announcements, and stay on top of assignments—all in one spot.
+                </p>
+            </>
         );
     };
 
