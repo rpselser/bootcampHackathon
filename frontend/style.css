@@ -1,3 +1,10 @@
-#lauren
-
- reminder to add dark mode
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00115a;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
