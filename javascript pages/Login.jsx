@@ -20,6 +20,7 @@ const Login = () => {
         storedUsername === username && storedPassword === password
     );
 
+    // Return alert depending if login was valid
     if (isAuthenticated) {
       alert("Login successful!");
     } else {
